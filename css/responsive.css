@@ -1,0 +1,175 @@
+/*-----Mobile Device----------*/
+@media(max-width:576px){
+
+.navbar-light .navbar-toggler{
+	  border-color:#fff;;
+}
+.navbar-toggler:focus{
+      box-shadow:unset;
+}
+.menu-bar .btn-primary{
+	  background:#1977cc;
+}
+.menu-bar .btn-primary:hover {
+    color:#fff;
+    background-color:#166ab5;
+}	      
+.banner .content h1{
+	   font-size:28px;
+}
+.banner .content h2{
+	  font-size:18px;
+}
+.banner-alt{
+	      margin-top:530px;
+}
+.about{
+	   margin-top:-400px;
+}
+.about::after{
+	   display:none !important;
+}
+.about .about-pics img{
+	   width:100%;
+	   height:auto;
+}
+
+.clients .card{
+	   margin-bottom:40px;
+}
+.main-content h2::after{
+	  top:47px;
+}
+.makes .btn-primary {
+	width:60%;
+}
+.department .nav-pills .nav-link.active{
+    color:#fff;
+    background-color:#1977cc;
+    border-color:#1977cc;
+}
+.department .nav-pills .nav-link{
+	  border-right:unset;
+}
+.department .tab-content .tab-pane h4{
+     margin-top:20px;
+}
+.flex{
+	 flex-direction:column-reverse !important;
+}
+.doctors{
+    padding-top:0;
+}	
+.doctors .doctors-pics{
+	 overflow:unset;
+}
+.doctors .img-fluid {
+    max-width:50%;
+    height:auto;
+}
+.testimonials .testi-pics {
+	padding-top:120px;
+	padding-left:30px;
+	padding-right:30px;
+}
+.testimonials .testi-pics img{
+	top:35px;
+    transform:translateX(50%);
+	width:70px;
+	height:70px;
+	
+}
+.testimonials .testi-pics p {
+	    font-size:14px;
+}
+.gallery-pics{
+	margin-bottom:10px;
+}
+/*---
+.testimonials .testi-pics img {
+    left:38px;
+    top:24px;
+    border-radius:3px;
+}---*/
+.footer{
+	text-align:center;
+}
+.footer-links{
+	text-align:center;
+	margin-top:10px;
+}
+
+}
+
+/*----------ipad device----------------*/
+@media (min-width:576px) and (max-width:992px){
+
+.navbar-light .navbar-toggler{
+	  border-color:#fff;;
+}
+.navbar-toggler:focus{
+      box-shadow:unset;
+}
+.menu-bar .btn{
+	  font-size:13px;
+}
+.menu-bar .btn-primary{
+	  background:#1977cc;
+}
+.menu-bar .btn-primary:hover {
+    color:#fff;
+    background-color:#166ab5;
+}	 	
+.banner-alt{
+	  margin-top:530px;
+}
+.banner .content h1{
+	   font-size:26px;
+}
+.banner .content h2{
+	  font-size:18px;
+}	
+.banner-alt .btn{
+  transform:translateX(150%);
+}
+.about{
+	 margin-top:-300px;
+}
+.about::after{
+	   display:none !important;
+}
+.about .about-pics img{
+	   width:100%;
+	   height:auto;
+}
+.clients .card{
+	   margin-bottom:45px;
+}
+.main-content h2::after{
+	  top:51px;
+}
+.department .nav-pills .nav-link.active{
+    color:#fff;
+    background-color:#1977cc;
+    border-color:#1977cc;
+}
+.department .nav-pills .nav-link{
+	  border-right:unset;
+}
+.department .tab-content .tab-pane h4{
+     margin-top:20px;
+}
+.flex{
+	 flex-direction:column-reverse !important;
+}
+.doctors{
+    padding-top:0;
+}
+.contact {
+    padding-top:0;
+}
+}
+/*----------large device----------------*/
+@media (min-width: 992px){
+	
+}
