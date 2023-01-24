@@ -21,10 +21,10 @@
 	  font-size:18px;
 }
 .banner-alt{
-	      margin-top:530px;
-}
-.about{
-	   margin-top:-400px;
+      position:static;
+	  margin-top:20px;
+	  margin-bottom:20px;
+	    
 }
 .about::after{
 	   display:none !important;
@@ -32,6 +32,10 @@
 .about .about-pics img{
 	   width:100%;
 	   height:auto;
+}
+.about .card .about-icon{
+	 top:13%;
+	 transform: translateX(40px);
 }
 
 .clients .card{
@@ -62,10 +66,6 @@
 }	
 .doctors .doctors-pics{
 	 overflow:unset;
-}
-.doctors .img-fluid {
-    max-width:50%;
-    height:auto;
 }
 .testimonials .testi-pics {
 	padding-top:120px;
@@ -102,7 +102,7 @@
 }
 
 /*----------ipad device----------------*/
-@media (min-width:576px) and (max-width:992px){
+@media (min-width:576px) and (max-width:991.97px){
 
 .navbar-light .navbar-toggler{
 	  border-color:#fff;;
@@ -121,7 +121,9 @@
     background-color:#166ab5;
 }	 	
 .banner-alt{
-	  margin-top:530px;
+	position:static;
+	margin-top:40px;
+	margin-bottom:40px;
 }
 .banner .content h1{
 	   font-size:26px;
@@ -129,18 +131,16 @@
 .banner .content h2{
 	  font-size:18px;
 }	
-.banner-alt .btn{
-  transform:translateX(150%);
-}
-.about{
-	 margin-top:-300px;
-}
 .about::after{
 	   display:none !important;
 }
 .about .about-pics img{
 	   width:100%;
 	   height:auto;
+}
+.about .card .about-icon{
+	 top:17%;
+	 transform:translateX(40px);
 }
 .clients .card{
 	   margin-bottom:45px;
@@ -171,5 +171,42 @@
 }
 /*----------large device----------------*/
 @media (min-width: 992px){
-	
+.menu-bar .navbar-nav .make-btn a {
+    font-size:13px;
+}
+.main-content h2::after{
+	  top:53px;
+}
+.department .nav-pills .nav-link{
+	  border-right:unset;
+}
+.department .nav-pills .nav-link.active{
+	  background-color:#1977cc;
+	  color:#1977cc;
+	  border-color:unset;
+}
+.department .nav-pills .nav-link:hover {
+    color: #fff;
+}
+}
+
+
+@media (min-width: 1200px){
+.menu-bar .navbar-nav .make-btn a {
+    font-size:16px;
+}
+.main-content h2::after{
+	  top:56px;
+}
+.department .nav-pills .nav-link{
+	  border-right:3px solid #ebf1f6;
+}
+.department .nav-pills .nav-link.active{
+	  background-color:unset;
+	  border-color:#1977cc;
+}
+.department .nav-pills .nav-link:hover {
+    color:#0a58ca;;
+}
+
 }
